@@ -4,4 +4,4 @@ These is a cleaned-up WIP including the native Paver assembler source I was usin
 
 Hen.c does not directly implement an assembler. It instead loads the native binary version (!) of the assembler and runs it by emulating a Paver core in order to assemble a new version of itself (the egg).
 
-The native binary was produced by an early cross-assembler I wrote in C, which is called Cyf. Once the assembler code was self-hosting, Cyf was decomissioned. 
+The native binary was produced by an early cross-assembler I wrote in C, which was called Cyf. Once the assembler code was self-hosting, Cyf was decomissioned. 
